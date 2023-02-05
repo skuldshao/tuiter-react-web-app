@@ -1,0 +1,21 @@
+/*refer an id start with # */
+#goal{
+    color:yellow;
+    background-color: blue;
+}
+
+#encouraged {
+    border: 20px blue solid;
+    border-bottom: green;
+    border-bottom-style: dashed;
+    border-bottom-width: 40px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+#focus{
+    border-width: 20px;
+    border-color: purple;
+    border-style: groove;
+}
+
