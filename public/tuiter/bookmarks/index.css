@@ -1,0 +1,141 @@
+.wd-body{
+    background-color: black;
+    border-left: 1px solid rgb(49,51,54);
+    border-right: 1px solid rgb(49,51,54);
+    margin-left: 30%;
+    margin-right:36%;
+}
+
+.wd-container-broder{
+    display: flex;
+    flex-flow: column;
+}
+
+.wd-bookmark-section{
+    background-color: black;
+    border-top: 1px solid rgb(49,51,54);
+    border-bottom: 1px solid rgb(49,51,54);
+}
+
+.wd-bold-white-text-big{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wd-lightgrey-text-small{
+    color:lightgray;
+    font-size:13px;
+}
+
+.wd-left-padding-16px{
+    padding-left: 16px;
+}
+
+.wd-top-margin-12px{
+    margin-top:12px;
+}
+
+.wd-bottom-margin-12px{
+    margin-bottom:12px;
+}
+
+.wd-avatar-photo{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.wd-left-padding-12px{
+    padding-left:12px;
+}
+
+.wd-right-padding-16px{
+    padding-left:16px;
+}
+
+.wd-15px-white-bold-text{
+    color:white;
+    font-size:15px;
+    font-weight: bold;
+}
+
+.wd-15px-lightgray-text{
+    color:lightgray;
+    font-size:15px;
+
+}
+
+.wd-float-left{
+    float:left;
+}
+
+.wd-class-d-container{
+    color:white;
+    fou5-size:15px;
+    width:506px;
+    padding-left:12px;
+    margin-bottom: 12px;
+    padding-right:16px;
+}
+
+.wd-class-e-container{
+    padding-left: 12px;
+
+}
+.wd-class-e-image{
+    width:504px;
+    height:264px;
+    border-radius: 20px 20px 0 0;
+    border:1px solid rgb(49,51,54);
+}
+
+.wd-class-f-container{
+    padding-left:12px;
+    width:504px;
+}
+
+.wd-class-f-title{
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.wd-class-f-content{
+    color:lightgray;
+    font-size: 15px;
+}
+
+.wd-class-f-text-borad{
+    padding: 12px;
+    border-radius: 0 0 20px 20px;
+    border:1px solid rgb(49,51,54);
+}
+
+.wd-class-b-to-g{
+    border-bottom:1px solid rgb(49,51,54);
+}
+
+.wd-class-g-container{
+    padding-left: 12px;
+    margin-top:12px;
+}
+
+.wd-class-g-number{
+    padding-left: 12px;
+    color:lightgray;
+    font-size:15px;
+}
+
+.wd-class-g-number-red{
+    padding-left: 12px;
+    color:red;
+    font-size:15px;
+}
+
+.wd-class-g-interaction-container{
+    padding-left: 12px;
+    padding-right: 60px;
+    float:left;
+    margin-bottom: 12px;
+}
