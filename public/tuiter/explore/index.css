@@ -2,7 +2,8 @@
     background-color: black;
     border-left: 2px solid rgb(49,51,54);
     border-right: 2px solid rgb(49,51,54);
-    margin-left: 15px;
+    margin-left: 35%;
+    margin-right:35%;
 }
 
 .wd-container-broder{
@@ -15,61 +16,54 @@
     background-color: black;
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    padding-left: 16px;
+    padding-right:16px;
 }
 
 .wd-class-a-search-bar{
-
-    margin-top:10px;
-    padding-left: 16px;
     background-color: rgb(33,35,39);
-    width:75%;
-    border-radius: 40px 40px 40px 40px;
-    border-width:0;
+    width:100%;
+    margin-top:10px;
+    border-radius: 40px;
+    padding:5px 16px 5px 16px;
 }
 
 .wd-search-input{
-    padding: 16px 0 16px 0;
     background-color: rgb(33,35,39);
     color:white;
-    width:75%;
-    height:30px;
-    border-radius: 40px 40px 40px 40px;
-    border-width: 0;
+    height:90%;
+    width:85%;
+    border-width:0;
+    padding-left:16px;
 }
 
 .wd-search-input::placeholder {
-    padding-left:20px;
     color: lightgray;
-    font-size:25px;
+    font-size:15px;
 }
 
 .wd-class-a-gear{
-    font-szie:30px;
-    margin-top:10px;
-    border-right:12px;
+    font-size:30px;
+    margin:12px;
 }
 
 .wd-class-b-container{
-    border-bottom: 2px solid rgb(49,51,54);
-    margin-top:30px;
     background-color: black;
+    border-bottom: 2px solid rgb(49,51,54);
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
 
 }
 
 .wd-class-b-navi{
-    padding: 16px 0 16px 0;
-    margin-right: 32px;
+    padding: 16px;
 }
 
 .wd-class-b-navi-page-selected{
     color: rgb(29,161,242);
     font-size: 15px;
     font-weight:bold;
-    padding:16px;
+    padding-bottom: 16px;
     border-bottom: 3px solid rgb(29,161,242);
 }
 
@@ -77,9 +71,92 @@
     color:rgb(110, 118, 125);
     font-size: 15px;
     font-weight:bold;
-    padding:16px;
+    padding-bottom:16px;
     border-bottom: 3px solid rgb(110, 118, 125);
 }
+
+.wd-class-b-to-c-transition{
+    border-top: 2px solid rgb(49,51,54);
+    border-bottom: 2px solid rgb(49,51,54);
+    background-color: rgb(33,35,39);
+    height:20px;
+}
+
+.wd-class-c-container{
+    background-color: black;
+    border-bottom: 2px solid rgb(49,51,54);
+}
+
+.wd-class-c-trending-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 16px;
+    margin:1%;
+}
+
+.wd-class-c-trending-section{
+    color:rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+.wd-class-c-trending{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wd-class-c-trending-tuiter-numbers{
+    color:rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+.wd-suggested-post-container{
+    background-color: black;
+    border-bottom: 2px solid rgb(49,51,54);
+    display: flex;
+    flex-direction: row;
+
+}
+
+.wd-publisher{
+    margin-top:1%;
+    padding-left: 16px;
+
+}
+
+.wd-suggested-post-icon{
+    width:15px;
+    height:15px;
+    border-radius: 40px;
+}
+
+.wd-news-title{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    margin:1%;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.wd-white-bold-small-text{
+    color:white;
+    font-weight:bold;
+    font-size: 13px;
+}
+.wd-gray-small-text{
+    color:rgb(110, 118, 125);
+    font-size:13px;
+}
+
+.wd-broder-image{
+    width:100px;
+    height:100px;
+    border-radius: 20px;
+    margin: 16px;
+}
+
 
 
 
