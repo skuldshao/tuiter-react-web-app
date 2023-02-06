@@ -1,0 +1,89 @@
+.wd-body{
+    background-color: black;
+    border-left: 2px solid rgb(49,51,54);
+    border-right: 2px solid rgb(49,51,54);
+    margin-left: 15px;
+}
+
+.wd-container-broder{
+    display: flex;
+    flex-flow: column;
+}
+
+.wd-class-a-container{
+    border-top: 2px solid rgb(49,51,54);
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.wd-class-a-search-bar{
+
+    margin-top:10px;
+    padding-left: 16px;
+    background-color: rgb(33,35,39);
+    width:75%;
+    border-radius: 40px 40px 40px 40px;
+    border-width:0;
+}
+
+.wd-search-input{
+    padding: 16px 0 16px 0;
+    background-color: rgb(33,35,39);
+    color:white;
+    width:75%;
+    height:30px;
+    border-radius: 40px 40px 40px 40px;
+    border-width: 0;
+}
+
+.wd-search-input::placeholder {
+    padding-left:20px;
+    color: lightgray;
+    font-size:25px;
+}
+
+.wd-class-a-gear{
+    font-szie:30px;
+    margin-top:10px;
+    border-right:12px;
+}
+
+.wd-class-b-container{
+    border-bottom: 2px solid rgb(49,51,54);
+    margin-top:30px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.wd-class-b-navi{
+    padding: 16px 0 16px 0;
+    margin-right: 32px;
+}
+
+.wd-class-b-navi-page-selected{
+    color: rgb(29,161,242);
+    font-size: 15px;
+    font-weight:bold;
+    padding:16px;
+    border-bottom: 3px solid rgb(29,161,242);
+}
+
+.wd-class-b-navi-page{
+    color:rgb(110, 118, 125);
+    font-size: 15px;
+    font-weight:bold;
+    padding:16px;
+    border-bottom: 3px solid rgb(110, 118, 125);
+}
+
+
+
+
+
+
+

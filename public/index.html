@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
@@ -27,14 +28,30 @@
     <title>React App</title>
   </head>
   <body>
-  <h1>Web Dev Assignments</h1>
-  <ul>
-    <li><a href="labs/a2/index.html">Assignment 2 Labs</a></li>
-    <li><a href="labs/a3/index.html">Assignment 3 Labs</a></li>
-    <li><a href="tuiter/navigation.html">Tuiter</a></li>
 
-  </ul>
+  <div class="container">
+    <h1>Web Dev Assignments</h1>
+    <ul class="list-group">
+      <li class="list-group-item"><a href="labs/a2/index.html">Assignment 2 Labs</a></li>
+      <li class="list-group-item"><a href="labs/a3/index.html">Assignment 3 Labs</a></li>
+      <li class="list-group-item"><a href="labs/a4/index.html">Assignment 4 Labs</a></li>
+      <li class="list-group-item"><a href="tuiter/navigation.html">Tuiter</a></li>
+
+    </ul>
+
+    Same Content but with Links
+    <div class="list-group">
+      <a class="list-group-item" href="labs/a2/index.html">Assignment 2 Labs</a></li>
+      <a class="list-group-item" href="labs/a3/index.html">Assignment 3 Labs</a></li>
+      <a class="list-group-item" href="labs/a4/index.html">Assignment 4 Labs</a></li>
+      <a class="list-group-item" href="tuiter/navigation.html">Tuiter</a></li>
+
+    </div>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+  </div>
+
+
+
 <!--    <div id="root"></div>-->
     <!--
       This HTML file is a template.
