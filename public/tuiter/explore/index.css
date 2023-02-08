@@ -1,3 +1,4 @@
+/*
 .wd-body{
     background-color: black;
     border-left: 2px solid rgb(49,51,54);
@@ -160,9 +161,23 @@
     clear:both;
 }
 
+*/
 
+.wd-rounded-start{
+    border-top-left-radius:30px;
+    border-bottom-left-radius:30px;
 
+}
 
+.wd-rounded-end{
+    border-top-right-radius:30px;
+    border-bottom-right-radius:30px;
+
+}
+
+.wd-text-lightgray{
+    color:rgb(110, 118, 125);
+}
 
 
 
