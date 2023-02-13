@@ -1,4 +1,18 @@
 
+
+
+function add(){
+    console.log("ADD")
+    const aDom = document.getElementById("a")
+    const bDom = document.getElementById("b")
+    const a = parseInt(aDom.value);
+    const b = parseInt(bDom.value);
+    console.log(a,b);
+    const cDom = document.getElementById("c");
+    cDom.value = a + b;
+}
+
+
 const hi = document.getElementById("welcome");
 hi.style.color = "red";
 hi.innerHTML ="Welcome to Web Dev";
@@ -56,14 +70,14 @@ document.write(`<ul>
 
 document.write("<h2>List using a for loop</h2>");
 document.write(`<ul>`);
-for(i = 0; i < grades.length; i ++){
+for(let i = 0; i < grades.length; i ++){
     document.write(`<li>${grades[i]}</li>`)
 }
 document.write(`</ul>`);
 
 let average = 0;
 let total = 0;
-for(i = 0; i < grades.length; i ++){
+for(let i = 0; i < grades.length; i ++){
     total = total+ grades[i];
     document.write(`<li>${grades[i]}</li>`)
 }
