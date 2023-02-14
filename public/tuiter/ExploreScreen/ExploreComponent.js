@@ -5,7 +5,7 @@ const ExploreComponent = () => {
             
           <div class="d-flex align-items-center">
                 <div class="input-group me-2">
-                    <span class="input-group-text bg-transparent wd-rounded-start"><i class="fa fa-search"></i></span>
+                    <span class="input-group-text bg-white wd-rounded-start"><i class="fa fa-search" style="color: lightgrey"></i></span>
                     <input class="form-control border-start-0 wd-rounded-end" placeholder="Search Tuiter"/>
                 </div>
                 <a href="explore-settings.html"><i class="fas fa-cog"  style="color: dodgerblue;font-size:35px"></i></a>
