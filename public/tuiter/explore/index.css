@@ -1,0 +1,184 @@
+/*
+.wd-body{
+    background-color: black;
+    border-left: 2px solid rgb(49,51,54);
+    border-right: 2px solid rgb(49,51,54);
+    margin-left: 30%;
+    margin-right:30%;
+}
+
+.wd-container-broder{
+    display: flex;
+    flex-flow: column;
+}
+
+.wd-class-a-container{
+    border-top: 2px solid rgb(49,51,54);
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+    padding-left: 16px;
+    padding-right:16px;
+}
+
+.wd-class-a-search-bar{
+    background-color: rgb(33,35,39);
+    width:70%;
+    margin-top:10px;
+    border-radius: 40px;
+    padding:5px 16px 5px 16px;
+}
+
+.wd-search-input{
+    background-color: rgb(33,35,39);
+    color:white;
+    height:90%;
+    width:70%;
+    border-width:0;
+    padding-left:16px;
+}
+
+.wd-search-input::placeholder {
+    color: lightgray;
+    font-size:15px;
+}
+
+.wd-class-a-gear{
+    font-size:30px;
+    margin:12px;
+}
+
+.wd-class-b-container{
+    background-color: black;
+    border-bottom: 2px solid rgb(49,51,54);
+    display: flex;
+    flex-direction: row;
+
+}
+
+.wd-class-b-navi{
+    padding: 16px;
+}
+
+.wd-class-b-navi-page-selected{
+    color: rgb(29,161,242);
+    font-size: 15px;
+    font-weight:bold;
+    padding-bottom: 16px;
+    border-bottom: 3px solid rgb(29,161,242);
+}
+
+.wd-class-b-navi-page{
+    color:rgb(110, 118, 125);
+    font-size: 15px;
+    font-weight:bold;
+    padding-bottom:16px;
+    border-bottom: 3px solid rgb(110, 118, 125);
+}
+
+.wd-class-b-to-c-transition{
+    border-top: 2px solid rgb(49,51,54);
+    border-bottom: 2px solid rgb(49,51,54);
+    background-color: rgb(33,35,39);
+    height:20px;
+}
+
+.wd-class-c-container{
+    background-color: black;
+    border-bottom: 2px solid rgb(49,51,54);
+}
+
+.wd-class-c-trending-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 16px;
+    margin:1%;
+}
+
+.wd-class-c-trending-section{
+    color:rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+.wd-class-c-trending{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wd-class-c-trending-tuiter-numbers{
+    color:rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+.wd-suggested-post-container{
+    background-color: black;
+    border-bottom: 2px solid rgb(49,51,54);
+}
+
+.wd-publisher{
+    margin-top:1%;
+    padding-left: 16px;
+    float:left;
+    width:70%;
+}
+
+.wd-suggested-post-icon{
+    width:15px;
+    height:15px;
+    border-radius: 40px;
+}
+
+.wd-news-title{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    margin:1%;
+}
+
+.wd-white-bold-small-text{
+    color:white;
+    font-weight:bold;
+    font-size: 13px;
+}
+.wd-gray-small-text{
+    color:rgb(110, 118, 125);
+    font-size:13px;
+}
+
+.wd-float-right{
+    float:right;
+}
+.wd-broder-image{
+    width:100px;
+    height:100px;
+    border-radius: 20px;
+    margin: 16px;
+}
+
+.wd-float-done{
+    clear:both;
+}
+
+*/
+
+.wd-rounded-start{
+    border-top-left-radius:30px;
+    border-bottom-left-radius:30px;
+
+}
+
+.wd-rounded-end{
+    border-top-right-radius:30px;
+    border-bottom-right-radius:30px;
+
+}
+
+.wd-text-lightgray{
+    color:rgb(110, 118, 125);
+}
+
+
+
+
