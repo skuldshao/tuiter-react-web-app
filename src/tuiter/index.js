@@ -12,7 +12,7 @@ import { configureStore }
 import {Provider} from "react-redux";
 import HomeComponent from "./home";
 const store = configureStore(
-    {reducer: {who: whoReducer, tuits: tuitsReducer}});
+    {reducer: {who: whoReducer, tuitsData: tuitsReducer}});
 
 
 function Tuiter() {
@@ -28,7 +28,7 @@ function Tuiter() {
                  style={{"position": "relative"}}>
                 <Routes>
                     <Route index element={<HomeComponent />} />
-                    <Route path='explore' element={<ExploreComponent />} />
+                    <Route path='/explore' element={<ExploreComponent />} />
                 </Routes>
             </div>
             <div className="d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
