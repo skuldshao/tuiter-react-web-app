@@ -6,13 +6,14 @@ import WhoToFollowList from "./who-to-follow-list/index.js";
 import ExploreComponent from "./explore";
 import whoReducer
     from "./reducers/who-reducer";
-import tuitsReducer from "./tuits/tuits-reducer";
+import tuitsReducer from "./reducers/tuits-reducer";
 import { configureStore }
     from '@reduxjs/toolkit';
 import {Provider} from "react-redux";
 import HomeComponent from "./home";
+import summaryReducer from "./reducers/summary-reducer";
 const store = configureStore(
-    {reducer: {who: whoReducer, tuitsData: tuitsReducer}});
+    {reducer: {who: whoReducer, summaries: summaryReducer,tuitsData: tuitsReducer}});
 
 
 function Tuiter() {
@@ -28,7 +29,7 @@ function Tuiter() {
                  style={{"position": "relative"}}>
                 <Routes>
                     <Route index element={<HomeComponent />} />
-                    <Route path='explore' element={<ExploreComponent />} />
+                    <Route path='/explore' element={<ExploreComponent />} />
                 </Routes>
             </div>
             <div className="d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">

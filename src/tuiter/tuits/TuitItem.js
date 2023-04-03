@@ -9,7 +9,7 @@ const TuitItem = (
         tuit = {
             "_id": 234,
             "topic": "Space",
-            "userName": "SpaceX",
+            "username": "SpaceX",
             "time": "2h",
             "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
             "image": "spacex.png",
@@ -37,7 +37,7 @@ const TuitItem = (
                     <i className="bi bi-x-lg float-end"
                        onClick={() => deleteTuitHandler(tuit._id)}></i>
                     <div>
-                        <span className="fw-bolder me-2">{tuit.userName}</span>
+                        <span className="fw-bolder me-2">{tuit.username}</span>
                         <i className="bi bi-patch-check-fill text-primary me-2"></i>
                         <span className="text-dark">{tuit.handle} · {tuit.time}</span>
                     </div>

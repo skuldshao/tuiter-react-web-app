@@ -1,10 +1,10 @@
 import { createSlice } from "@reduxjs/toolkit";
-import tuits from './tuits.json';
+import tuits from '../tuits/tuits.json';
 import {createTuitThunk,deleteTuitThunk,findTuitsThunk,updateTuitThunk}
     from "../../services/tuits-thunks";
 
 const currentUser = {
-    "userName": "NASA",
+    "username": "NASA",
     "handle": "@nasa",
     "image": "nasa.jpg",
 };
